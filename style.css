@@ -63,11 +63,16 @@ a{
       background: none;
       border: none;
       cursor: pointer;
-      font-size: 24px; /* Controls icon size */
-      color: #000;     /* Set your icon color */
+      font-size: 24px;
+      color: #000;     
+      /* background-color: red; */
       padding: 10px;
     }
 
+    .menu-btn:hover{
+      background-color: #ddd;
+    }
+    
     .menu-links {
       display: none;
       position: absolute;
